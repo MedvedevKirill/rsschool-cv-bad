@@ -1,2 +1,2 @@
 # rsschool-cv
-This repository is for RSS corses.
+https://MedvedevKirill.github.io/rsschool-cv/cv
