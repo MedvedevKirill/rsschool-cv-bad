@@ -7,15 +7,13 @@
     align-items: center;
 }
 .main-block{
-    background-color: #ffc34a;
+    background-image: url(assets/images/Subtract.png);
+    background-size: cover;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0px 57px 26px 10px rgba(0,0,0,0.38);
-    padding: 5em;
     line-height: 20px;
     font-weight: 500;
-}
-h1{
-    text-align: center;
+    font-size: 1.2em;
 }
 body{
     margin: 0;
@@ -27,4 +25,21 @@ body{
 a[class="bold"]{
     color: black;
     text-decoration: none;
+}
+header{
+    margin: 5em 5em 0 2em;
+    display: flex;
+    justify-content: start;
+}
+article{
+    margin: 0 5em 5em 5em;
+}
+.avatar{
+    margin-right: 1em;
+    border-radius: 10px;
+    height: 5em;
+    min-width: 5em;
+    width: 5em;
+    background-image: url(assets/images/avatar.jpg);
+    background-size: cover;
 }
