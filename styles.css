@@ -1,45 +1,109 @@
 .wrapper{
-    min-height: 100vh;
+    min-height: 110vh;
     background-image: url(assets/images/background.jpg);
     background-size: cover;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
 }
-.main-block{
-    background-image: url(assets/images/Subtract.png);
-    background-size: cover;
+.yellow-block{
+    padding: 1em;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0px 57px 26px 10px rgba(0,0,0,0.38);
-    line-height: 20px;
-    font-weight: 500;
+    background: rgb(255,207,0);
+    background: linear-gradient(180deg, #ffcf00 71%, rgba(0,0,0,1) 155%);
     font-size: 1.2em;
+    font-weight: 600;
+}
+.yellow-block h3{
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid black;
+}
+header{
+    display: flex;
+    width: 40.5vw;
+}
+header section{
+    font-family:sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header[class="yellow-block"] h1{
+    margin: 0;
+    font-size: 3em;
+    border-bottom: 2px solid black;
+}
+header[class="yellow-block"] h3{
+    margin: 0;
+    border-bottom: none;
+    font-size: 1.5em;
+}
+.avatar{
+    margin-right: 0.5em;
+    border-radius: 10px;
+    height: 10em;
+    min-width: 10em;
+    background-image: url(assets/images/avatar.jpg);
+    background-size: cover;
+}
+.about-me{
+    width: 40.5vw;
+}
+pre{
+    margin: 0 0 0 1em;
 }
 body{
     margin: 0;
     padding: 0;
 }
-.bold{
-    font-weight: bold;
+#skills-code{
+    width: 42.8vw;
+    display: flex;
+    justify-content: space-between;
 }
-a[class="bold"]{
-    color: black;
+#education-works-eng{
+    width: 42.8vw;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    transition: color 0.5s ease-in-out;
     text-decoration: none;
 }
-header{
-    margin: 5em 5em 0 2em;
-    display: flex;
-    justify-content: start;
+a:visited{
+    color: black
 }
-article{
-    margin: 0 5em 5em 5em;
+a:hover{
+    color: darkblue;
 }
-.avatar{
+img
+{
+    width: 3em;
     margin-right: 1em;
-    border-radius: 10px;
-    height: 5em;
-    min-width: 5em;
-    width: 5em;
-    background-image: url(assets/images/avatar.jpg);
-    background-size: cover;
 }
+footer ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    
+}
+footer
+{
+    display: flex;
+    flex-direction: column;
+    width: 40.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+mark{
+    background-color:darkgoldenrod;
+}
+
