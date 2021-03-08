@@ -1,5 +1,5 @@
 .wrapper{
-    min-height: 100vh;
+    min-height: 110vh;
     background-image: url(assets/images/background.jpg);
     background-size: cover;
     display: flex;
@@ -24,6 +24,7 @@
 }
 header{
     display: flex;
+    width: 40.5vw;
 }
 header section{
     font-family:sans-serif;
@@ -49,6 +50,9 @@ header[class="yellow-block"] h3{
     background-image: url(assets/images/avatar.jpg);
     background-size: cover;
 }
+.about-me{
+    width: 40.5vw;
+}
 pre{
     margin: 0 0 0 1em;
 }
@@ -57,29 +61,46 @@ body{
     padding: 0;
 }
 #skills-code{
+    width: 42.8vw;
     display: flex;
     justify-content: space-between;
-}
-#skills-code section{
-    margin-left: 1em;
-    margin-right: 1em;
 }
 #education-works-eng{
+    width: 42.8vw;
     display: flex;
     justify-content: space-between;
 }
-#education-works-eng section{
-    margin-right: 1em;
-    margin-left: 1em;
-}
 a{
-    transition: font-size 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
     text-decoration: none;
 }
 a:visited{
     color: black
 }
 a:hover{
-    font-size: 1.05em;
+    color: darkblue;
+}
+img
+{
+    width: 3em;
+    margin-right: 1em;
+}
+footer ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    
+}
+footer
+{
+    display: flex;
+    flex-direction: column;
+    width: 40.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
