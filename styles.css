@@ -42,13 +42,11 @@ header[class="yellow-block"] h3{
     border-bottom: none;
     font-size: 1.5em;
 }
-.avatar{
+header img{
     margin-right: 0.5em;
     border-radius: 10px;
     height: 10em;
     min-width: 10em;
-    background-image: url(assets/images/avatar.jpg);
-    background-size: cover;
 }
 .about-me{
     width: 40.5vw;
