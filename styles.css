@@ -61,12 +61,16 @@ body{
 #skills-code{
     width: 42.8vw;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 #education-works-eng{
     width: 42.8vw;
     display: flex;
     justify-content: space-between;
+}
+#education-works-eng ul{
+    list-style-type: none;
+    padding: 0;
 }
 a{
     transition: color 0.5s ease-in-out;
